@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>no 2</title>
+</head>
+<body>
+    <script>
+        var propinsi = ["Jawa Timur","Jawa Tengah","Sulawesi Selatan","Sumatera Utara"];
+        var posisi = 1;
+        var ibukota;
+        switch(propinsi[posisi+1]) {
+            case "Jawa Timur" :
+                ibukota = "Surabaya";
+                break;
+            case "Jawa Tengah" :
+                ibukota = "Semarang";
+                break;
+            case "Sulawesi Selatan" :
+                ibukota = "Makassar";
+                break;
+            case "Sumatera Utara" :
+                ibukota = "Medan";
+                break;
+        }
+        document.writeln("Ibu Kota propinsi " + propinsi[posisi+1] + " adalah " + ibukota);
+    </script>
+</body>
+</html>
